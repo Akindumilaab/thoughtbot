@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+
+nav{
+    height: 80px;
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    color: whitesmoke;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo-area{
+    display: flex;
+    align-items: center;
+}
+
+.box3-btn2{
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: white;
+    background-color: rgb(224,49,49);
+    border: 2px solid white ;
+    
+}
+
+.box3-btn1{
+    padding: 15px 15px;
+    margin-right: 10px;
+    color: black;
+    /* background-color: rgba(128, 128, 128, 0.119); */
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+.box3-btn2:hover{
+     outline: 2px solid rgb(224,49,49);
+}
+.box3-btn1:hover{
+    outline: 2px solid grey;
+}
+
+h2{
+    color: rgb(224,49,49d);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(224,49,49);
+    
+}
+section{
+    margin: 100px auto;
+    font-size: xx-large;
+    width: 80%;
+    
+
+}
+h3{
+    font-size: large;
+    margin-top: 10px;
+}
+
+h3 >a{
+    color: red;
+    text-decoration: underline;
+}
+.container3{
+    width: 80%;
+    min-height: 500px;
+    border-top: 1px solid grey;
+}
+.box4{
+    display: flex;
+    padding: 15px 30px;
+    list-style-type: none;
+    gap: 5px;
+}
+.tag >a{
+    font-size: large;
+    text-decoration: underline;
+    padding-right: 50px;
+
+}
+.box3-btn3{
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: white;
+    border: 1px solid white;
+    background-color: red;
+}  
+.box3-btn4{
+    padding: 15px 30px;
+    border-radius: 25px; 
+    background-color: white;
+    border: 1px solid black;
+}
+.box3-btn5{
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+.box3-btn6{
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box3-btn7{
+    padding: 15px 30px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box3-btn4:hover{
+    /* transform: translate(40px); */
+    outline: 2px solid red;   
+}
+.box3-btn5:hover{
+    outline: 2px solid red;   
+}
+ .box3-btn6:hover{
+    outline: 2px solid red;   
+ }
+ .box3-btn7:hover{
+    outline: 2px solid red;   
+ }
+ .box5{
+     margin-top: 30px;
+ }
+ .box5 >h1{
+    font-size: x-large;
+    
+ }
+ .box5 >h1 >a{
+    text-decoration: none;
+ }
+ .box5 >p{
+    font-size: large;
+    margin-top: 10px;
+ }
+ .box5 >p >a{
+    text-decoration: none;
+    color: red;
+    font-size: large;
+ }
+ .box5 .tag1 >a{
+    color: gray;
+
+ }
+ .box5 .tag1 >a:hover{
+    color: red;
+ }
+ .box6{
+    margin-top: 40px;
+ }
+ .box6 >h1 >a{
+    font-size: x-large;
+    text-decoration: none; 
+ }
+ .box6 >p{
+    font-size: large;
+    margin-top: 10px;
+ }
+ .box6 >p >a{
+    text-decoration: none;
+    color: red;
+    font-size: large;
+ }
+ .box7{
+    margin-top: 40px;
+ }
+ .box7 >h1 >a{
+    font-size: x-large;
+    text-decoration: none; 
+ }
+ .box7 >p{
+    font-size: large;
+    margin-top: 10px;
+ }
+ .box7 >p >a{
+    text-decoration: none;
+    color: red;
+    font-size: large
+ }
+ .box7 .tag2 >a{
+    color: gray;
+ }
+ .box7 .tag2 >a:hover{
+    color: red;
+ }
+.box8{
+    height: 250px;
+    width: 65%;
+    /* border: 1px solid; */
+    margin-top: 80px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.box8 >p{
+    padding: 10px 20px;
+    color: black ;
+    ;
+}
+.box8-btn8{
+    padding: 20px 150px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 25px;
+    border: 1px black;
+    background-color: white;
+    opacity: 10px;
+}
+.box8-btn8:hover{
+   outline: 1px solid black;
+   
+}
+.box8-btn9{
+    padding: 15px 50px;
+    margin-top: 20px;
+    border-radius: 25px;
+    color: white;
+    border: 2px solid white;
+    background-color: red;
+}
+.box8-btn9:hover{
+    outline: 2px solid red;
+}
+
+.box9{
+    margin-top: 40px;
+ }
+ .box9 >h1 >a{
+    font-size: x-large;
+    text-decoration: none; 
+ }
+ .box9 >h1{
+    margin-top: -25px;
+ }
+ .box9 >p{
+    font-size: large;
+    margin-top: 10px;
+ }
+ .box9 >p >a{
+    text-decoration: none;
+    color: red;
+    font-size: large
+ }
+ .box9 .tag4 >a{
+    color: gray;
+ }
+ .box9 .tag5 >a{
+    color: gray;
+ }
+ .box9 .tag4 >a:hover{
+    color: red;
+ }
+ .box9 .tag5 >a:hover{
+    color: red;
+ }
+ .box10{
+    margin-top: 40px;
+ }
+ .box10 >h1 >a{
+    font-size: x-large;
+    text-decoration: none; 
+ }
+ .box10 >p{
+    font-size: large;
+    margin-top: 10px;
+ }
+ .box10 >p >a{
+    text-decoration: none;
+    color: red;
+    font-size: large
+ }
+ .box10 .tag6 >a{
+    color: gray;
+ }
+ .box10 .tag6 >a:hover{
+    color: red;
+ }
+ .box11{
+    margin-top: 40px;
+ }
+ .box11 >h1 >a{
+    font-size: x-large;
+    text-decoration: none; 
+ }
+ .box11 >h1{
+    margin-top: -25px;
+ }
+ .box11 >p{
+    font-size: large;
+    margin-top: 10px;
+ }
+ .box11 >p >a{
+    text-decoration: none;
+    color: red;
+    font-size: large
+ }
+ .box11 .tag7 >a{
+    color: gray;
+ }
+ .box11 .tag7 >a:hover{
+    color: red;
+ }
+ .box12{
+    margin-top: 40px;
+ }
+ .box12 >h1 >a{
+    font-size: x-large;
+    text-decoration: none; 
+ }
+ .box12 >p{
+    font-size: large;
+    margin-top: 10px;
+ }
+ .box12 >p >a{
+    text-decoration: none;
+    color: red;
+    font-size: large
+ }
+ .box12 .tag8>a{
+    color: gray;
+ }
+ .box12 .tag8 >a:hover{
+    color: red;
+ }
+ .box13{
+    margin-top: 40px;
+ }
+ .box13 >h1 >a{
+    font-size: x-large;
+    text-decoration: none; 
+ }
+ .box13 >h1{
+    margin-top: -25px;
+ }
+ .box13 >p{
+    font-size: large;
+    margin-top: 10px;
+ }
+ .box13 >p >a{
+    text-decoration: none;
+    color: red;
+    font-size: large
+ }
+ .box13 .tag9 >a{
+    color: gray;
+ }
+ .box13 .tag9 >a:hover{
+    color: red;
+ }
+ .box14{
+    margin-top: 40px;
+ }
+ .box14 >h1 >a{
+    font-size: x-large;
+    text-decoration: none;
+ }
+ .box14 >p{
+    font-size: large;
+    margin-top: 10px;
+ }
+ .box14 >p >a{
+    text-decoration: none;
+    color: red;
+    font-size: large
+ }
+ .box14 .tag10 >a{
+    color: gray;
+ }
+ .box14 .tag10 >a:hover{
+    color: red;
+ }
+ .box15{
+    margin-top: 40px;
+ }
+
+.box15 >h1 >a{
+   font-size: x-large;
+   text-decoration: none;
+}
+.box15 >p{
+   font-size: large;
+   margin-top: 10px;
+}
+.box15 >p >a{
+   text-decoration: none;
+   color: red;
+   font-size: large
+}
+.box15 .tag11 >a{
+   color: gray;
+}
+.box15 .tag11 >a:hover{
+   color: red;
+}
+footer{
+   height: 80dvh;
+   width: 100%;
+   margin: auto;
+   border: 1px solid;
+   background-color: rgb(41,41,44);
+   list-style-type: none;
+}
+.container4{
+   display: flex;
+   padding: 40px 100px;
+   justify-content: space-between;
+   align-content: center;
+   margin-top: 30px;
+   
+}
+ul >li{
+   list-style-type: none;
+}
+ul >li >a{
+   color: white;
+   text-decoration: underline;
+}
+.col >a{
+   color: rgb(255,219,121);
+}
+
+.bob2{
+   margin-left: -180px;
+   margin-top: 10px;
+   color: rgb(224,49,49);
+}
+.bob3{
+   font-size: larger;
+   
+
+}
+.bob4{
+   font-size: larger;
+   
+}
+.bob5{
+   font-size: larger; 
+}
+.col >a:hover{
+   color: rgb(224,49,49);
+}
+.container5{
+   display: flex;
+   padding: 40px 100px;
+   justify-content: space-between;
+   /* text-decoration: underline; */
+   color: white ;
+   font-size: larger;
+   margin-top: 50px;
+}
+p >a{
+   color: white;
+   text-decoration: underline;
+}
+
+   
+
+
+
+ 
+
+ 
+    
+
+
+    
+
+
+
+
+    
+    
+
+
+    
+
+
+
+    
+
+
+
+    
+    
+
+
+
+
